@@ -1,0 +1,154 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  color: #000d0f;
+  font-size: 14px;
+  line-height: 1.2em;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0; 
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.inner-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 3em 0 auto;
+  border-bottom: 0.25em solid #fd9f15;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: 72px;
+  margin: 1.2em 0;
+}
+
+.header-title {
+  margin: 1.2em 0;
+  line-height: 2.9em;
+  text-align: right;
+}
+
+.main-title {
+  font-size: 47px;
+  font-weight: 100;
+}
+
+.second-title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/*
+ *
+ * Main
+ *
+ */
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/*
+ *
+ * Main Image
+ *
+ */
+
+.main-image {
+  width: 100%;
+  padding: 1.7em 0 0;
+}
+
+.sublime-image {
+  width: 100%;
+}
+
+/*
+ *
+ * Featured Work
+ *
+ */
+
+.featured-work {
+  width: 100%;
+  padding: 2em 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-work-title {
+  order: -1;
+  width: 100%;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 0 0 0.5em 1em;
+}
+
+.featured-work-images {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: 100;
+}
+
+.single-img {
+  width: 100%;
+}
+
+.featured-work-img {
+  width: 30%;
+  margin-top: 2em;
+}
+
+.featured-work-images-title {
+  font-size: 30px;
+  margin: 0.5em 0;
+  line-height: 35px;
+}
+
+.featured-work-images-subtitle {
+  font-size: 12px;
+  margin: 0.5em 0;
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5em 0 3em 0;
+  text-align: center;
+}
+
+.view-source {
+  width: 40%;
+  align-self: center;
+  color: #4183c4;
+  font-weight: 300;
+  text-decoration: none;
+  border-top: 1px solid #ddd;
+  margin: 1.3em 0 0;
+  padding: 1em 0 0;
+}
